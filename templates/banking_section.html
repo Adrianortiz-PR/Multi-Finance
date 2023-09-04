@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking Section</title>
+</head>
+<body>
+    <h1>Banking Section</h1>
+    <form action="/handle_banking" method="post">
+        <label for="user_option">Select an option:</label>
+        <select id="user_option" name="user_option">
+            <option value="1">Simple Interest</option>
+            <option value="2">Compound Interest</option>
+            <option value="3">How much a stock went up or down</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    <p id="result"></p>
+</body>
+</html>
